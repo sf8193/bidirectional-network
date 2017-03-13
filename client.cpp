@@ -58,7 +58,8 @@ int whichHash(string & choose,char **con)//to future proof if more hash's wanted
 	switch(choose[1])//check second char of string for what type of hash
 	{
 		case 'S':
-			shaHash(choose,con);
+			shaHash(choose,con);///NOT WORKING NEED TO LOOK INTO SHA FILE
+
 			return 0;
 		default:
 			printf("Program terminated: Check Input\n");
